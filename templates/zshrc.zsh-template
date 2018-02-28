@@ -85,6 +85,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias wtf='watch -n 1 w -hs'
 alias wth='ps -uxa | more'
-alias please='sudo $(history -p !!)'
+alias please='sudo $(fc -ln -1)'
 alias tb="nc termbin.com 9999"
 alias dup='du -hs ./* | sort -h'
